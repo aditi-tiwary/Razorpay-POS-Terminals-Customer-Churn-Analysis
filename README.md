@@ -25,10 +25,28 @@ The dataset consists of **10,000+ records** of merchants using Razorpay POS term
    - **Logistic Regression** and **Random Forest** models were trained to predict churn.
    - Model performance assessed using **ROC AUC Score, Confusion Matrix, and Feature Importance**.
 
----
+## Exploratory Data Analysis (EDA)
+EDA was conducted to **understand patterns in churned vs. non-churned merchants**:
+- **Churn Distribution:** Visualized overall churn rate and industry-wise segmentation.
+- **Boxplots:** Used to compare key numerical features (POS Cost, Monthly Rental Fee, LTV) between churned and non-churned merchants.
+- **Correlation Heatmap:** Identified relationships between numerical variables and churn, revealing insights on factors like transaction volume and MDR rate.
+
+
+## 🔮 Machine Learning Models
+### 1️⃣ **Logistic Regression**
 
 ## Model Performance
+### 1) **Logistic Regression**
+- Chosen for its interpretability in understanding feature importance.
+- ROC AUC Score: **0.51** (slightly better than random guessing).
+- Struggles with **high false positives (609) and false negatives (380)**.
 
+### 2) **Random Forest**
+- Used for capturing non-linear relationships in the data.
+- ROC AUC Score: **0.48** (slightly worse than Logistic Regression).
+- Feature importance indicates **transaction-based factors (Avg Transaction Value, LTV) are stronger churn predictors than pricing-based factors**.
+
+## 🚀 Key Insights
 | Model                 | ROC AUC Score | Key Findings |
 |----------------------|--------------|--------------|
 | **Logistic Regression** | 0.51 | Slightly better than random guessing, struggles with false positives. |
