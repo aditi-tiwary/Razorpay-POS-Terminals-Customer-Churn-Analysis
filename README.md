@@ -28,6 +28,8 @@ The dataset consists of **10,000+ records** of merchants using Razorpay POS term
 ## Exploratory Data Analysis (EDA)
 EDA was conducted to **understand patterns in churned vs. non-churned merchants**:
 - **Churn Distribution:** Visualized overall churn rate and industry-wise segmentation.
+![Feature Importance](assets/feature_importance.png)
+
 - **Boxplots:** Used to compare key numerical features (POS Cost, Monthly Rental Fee, LTV) between churned and non-churned merchants.
 - **Correlation Heatmap:** Identified relationships between numerical variables and churn, revealing insights on factors like transaction volume and MDR rate.
 
