@@ -32,9 +32,6 @@ EDA was conducted to **understand patterns in churned vs. non-churned merchants*
 - **Correlation Heatmap:** Identified relationships between numerical variables and churn, revealing insights on factors like transaction volume and MDR rate.
 
 
-## 🔮 Machine Learning Models
-### 1️⃣ **Logistic Regression**
-
 ## Model Performance
 ### 1) **Logistic Regression**
 - Chosen for its interpretability in understanding feature importance.
@@ -46,7 +43,7 @@ EDA was conducted to **understand patterns in churned vs. non-churned merchants*
 - ROC AUC Score: **0.48** (slightly worse than Logistic Regression).
 - Feature importance indicates **transaction-based factors (Avg Transaction Value, LTV) are stronger churn predictors than pricing-based factors**.
 
-## 🚀 Key Insights
+## 🚀 Key Insights from both the models:
 | Model                 | ROC AUC Score | Key Findings |
 |----------------------|--------------|--------------|
 | **Logistic Regression** | 0.51 | Slightly better than random guessing, struggles with false positives. |
