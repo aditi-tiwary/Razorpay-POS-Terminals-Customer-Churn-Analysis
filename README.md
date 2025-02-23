@@ -32,7 +32,8 @@ EDA was conducted to **understand patterns in churned vs. non-churned merchants*
 
 - **Boxplots:** Used to compare key numerical features (POS Cost, Monthly Rental Fee, LTV) between churned and non-churned merchants.
 - ![Boxplots](https://github.com/aditi-tiwary/Razorpay-POS-Terminals-Customer-Churn-Analysis/blob/main/Screenshot%202025-02-22%20133933.png)
-- 
+- ![Boxplots](https://github.com/aditi-tiwary/Razorpay-POS-Terminals-Customer-Churn-Analysis/blob/main/Screenshot%202025-02-22%20134424.png)
+  
 - **Correlation Heatmap:** Identified relationships between numerical variables and churn, revealing insights on factors like transaction volume and MDR rate.
 
 
