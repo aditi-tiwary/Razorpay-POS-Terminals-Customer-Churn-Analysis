@@ -56,6 +56,7 @@ EDA was conducted to **understand patterns in churned vs. non-churned merchants*
 | **Random Forest** | 0.48 | Worse than Logistic Regression, suggests transaction-based factors are stronger predictors. |
 
 ### Key Insights from Confusion Matrix:
+![Confusion Matrix](https://github.com/aditi-tiwary/Razorpay-POS-Terminals-Customer-Churn-Analysis/blob/main/Screenshot%202025-02-22%20140806.png)
 - **High False Positives (609 merchants)** → Wasted retention efforts.
 - **High False Negatives (380 merchants)** → Missed opportunities for proactive retention.
 - **Recall (63%)** → Model detects churners well, but with **low precision (51%)**.
@@ -73,20 +74,13 @@ EDA was conducted to **understand patterns in churned vs. non-churned merchants*
    - **Low Importance**: POS Cost & Monthly Rental Fee
 
 
-## Suggested Strategies for Retention
+## Suggested Retention Strategies
 1. **Target merchants with declining transaction volumes** with personalized offers.
 2. **Revise MDR & POS pricing** for SMBs to remain competitive.
 3. **Enhance customer support** to assist at-risk merchants.
 4. **Loyalty programs & cashback incentives** to increase merchant stickiness.
 5. **AI-powered predictive retention models** for early churn detection.
 
-
-## Next Steps
-- Try **Gradient Boosting Models (XGBoost, LightGBM)** for better churn prediction.
-- Incorporate **support tickets, technical issues & feedback scores** as new features.
-- Develop an **AI-driven retention strategy** based on transaction trends.
-
----
 
 ## Tech Stack
 - **Python** (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn)
